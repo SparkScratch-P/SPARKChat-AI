@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPARKChat AI - Ultimate Custom AI Chat Agent for Your Website</title>
+    <meta name="description" content="The Ultimate Custom AI Chat Agent for your Website is just One Click Away. Free forever, fully customizable, works everywhere.">
+    <meta name="author" content="SPARK Technosapiens">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="SPARKChat AI - Ultimate Custom AI Chat Agent">
+    <meta property="og:description" content="The Ultimate Custom AI Chat Agent for your Website is just One Click Away. Free forever, fully customizable, works everywhere.">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SPARKChat AI - Ultimate Custom AI Chat Agent">
+    <meta name="twitter:description" content="The Ultimate Custom AI Chat Agent for your Website is just One Click Away. Free forever, fully customizable, works everywhere.">
+    
+    <!-- SEO -->
+    <meta name="keywords" content="AI chat, chatbot, website chat, custom AI, free chatbot, SPARKChat, AI integration, chat widget">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <h1>SPARKChat AI</h1>
+                </div>
+                <div class="nav-desktop">
+                    <button onclick="scrollToSection('features')" class="nav-link">Features</button>
+                    <button onclick="scrollToSection('demo')" class="nav-link">Demo</button>
+                    <button onclick="scrollToSection('docs')" class="nav-link">Docs</button>
+                    <a href="https://sparkscratch-p.github.io/SPARKChat-AI/editor/"><button class="nav-btn">Get Started</button></a>
+                </div>
+                <div class="nav-mobile">
+                    <button id="mobile-menu-btn" class="mobile-menu-btn">
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="mobile-menu hidden">
+                <button onclick="scrollToSection('features')" class="mobile-nav-link">Features</button>
+                <button onclick="scrollToSection('demo')" class="mobile-nav-link">Demo</button>
+                <button onclick="scrollToSection('docs')" class="mobile-nav-link">Docs</button>
+                <button onclick="scrollToSection('demo')" class="mobile-nav-btn">Get Started</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="hero-blob hero-blob-1"></div>
+            <div class="hero-blob hero-blob-2"></div>
+            <div class="hero-blob hero-blob-3"></div>
+        </div>
+        <div class="hero-particles"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">SPARKChat AI</h1>
+            <p class="hero-subtitle">The Ultimate Custom AI Chat Agent for your Website</p>
+            <p class="hero-tagline">is just One Click Away.</p>
+            <div class="hero-cta">
+                <button onclick="scrollToSection('demo')" class="hero-btn">
+                    Try It Free
+                    <svg class="hero-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                    </svg>
+                </button>
+                <p class="hero-note">No code required • Free forever</p>
+            </div>
+            <div class="hero-scroll" onclick="scrollToSection('demo')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="features-header">
+                <h2>Why Choose SPARKChat AI?</h2>
+                <p>Built for developers, loved by users. Experience the perfect blend of simplicity and power.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-yellow">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                        </svg>
+                    </div>
+                    <h3>No Code Setup</h3>
+                    <p>Get your AI chat agent running in seconds with our simple embed code. No technical expertise required.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-green">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3>Fully Free</h3>
+                    <p>Complete solution at zero cost. No hidden fees, no premium tiers, just powerful AI chat for everyone.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-blue">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="m12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3>Works Everywhere</h3>
+                    <p>Compatible with all websites, frameworks, and platforms. Chrome, Firefox, Safari, Edge - we've got you covered.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-purple">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1 1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                        </svg>
+                    </div>
+                    <h3>API Ready</h3>
+                    <p>Connect to any API, customize responses, and integrate with your existing systems seamlessly.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-pink">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.07 2.07 0 0 1-2.44-2.44 2.07 2.07 0 0 1-2.44-2.44 2.07 2.07 0 0 1-2.44-2.44A2.5 2.5 0 0 1 2.5 10H12"/>
+                        </svg>
+                    </div>
+                    <h3>Custom LLM Support</h3>
+                    <p>Bring your own AI model or use popular services like OpenAI, Claude, or run locally.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-indigo">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3>Fully Responsive</h3>
+                    <p>Perfect experience on desktop, tablet, and mobile. Your chat agent adapts to any screen size.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Demo Section -->
+    <section id="demo" class="demo">
+        <div class="demo-bg"></div>
+        <div class="container">
+            <div class="demo-header">
+                <h2>
+                    <svg class="demo-sparkle" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.582a.5.5 0 0 1 0 .962L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0L9.937 15.5Z"/>
+                    </svg>
+                    See SPARKChat AI in Action
+                    <svg class="demo-sparkle" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.582a.5.5 0 0 1 0 .962L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0L9.937 15.5Z"/>
+                    </svg>
+                </h2>
+                <p>Try our live demo below. This is exactly what your visitors will experience!</p>
+            </div>
+            <div class="chat-widget">
+                <div class="chat-header">
+                    <div class="chat-avatar">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 8V4H8"/>
+                            <rect width="16" height="12" x="4" y="8" rx="2"/>
+                            <path d="m14 12-4 4 4 4"/>
+                        </svg>
+                    </div>
+                    <div class="chat-info">
+                        <h3>SPARKChat AI</h3>
+                        <p>Always here to help</p>
+                    </div>
+                    <div class="chat-status">
+                        <div class="status-dot status-green"></div>
+                        <div class="status-dot status-yellow"></div>
+                        <div class="status-dot status-red"></div>
+                    </div>
+                </div>
+                <div class="chat-messages" id="chat-messages">
+                    <div class="message bot-message">
+                        <div class="message-avatar">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M12 8V4H8"/>
+                                <rect width="16" height="12" x="4" y="8" rx="2"/>
+                                <path d="m14 12-4 4 4 4"/>
+                            </svg>
+                        </div>
+                        <div class="message-content">
+                            Hi! I'm SPARKChat AI. Try asking me anything about web development, AI, or how I can help your website!
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="chat-input" placeholder="Ask me anything about SPARKChat AI..." />
+                    <button id="send-btn" class="send-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="m22 2-7 20-4-9-9-4Z"/>
+                            <path d="M22 2 11 13"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentation Section -->
+    <section id="docs" class="docs">
+        <div class="container">
+            
+            
+            <div class="faq-section">
+                <h3>Frequently Asked Questions</h3>
+                <div class="search-box">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <circle cx="11" cy="11" r="8"/>
+                        <path d="m21 21-4.35-4.35"/>
+                    </svg>
+                    <input type="text" id="faq-search" placeholder="Search FAQs..." />
+                </div>
+                <div class="faq-list" id="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            How quickly can I set up SPARKChat AI?
+                            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="m6 9 6 6 6-6"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            You can have SPARKChat AI running on your website in under 5 minutes. Simply copy our embed code and paste it into your HTML. No backend setup, no complex configuration needed.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Is SPARKChat AI really free forever?
+                            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="m6 9 6 6 6-6"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            Yes! SPARKChat AI is completely free with no hidden costs, no premium tiers, and no usage limits. We believe AI chat should be accessible to everyone.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Can I customize the chat widget's appearance?
+                            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="m6 9 6 6 6-6"/>
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            Absolutely! You can customize colors, fonts, position, size, and even add your own CSS. The widget automatically adapts to your website's design system.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-section">
+                <h3>Ready to Integrate?</h3>
+                <div class="contact-buttons">
+                    <a href="https://sparkscratch-p.github.io/SPARKChat-AI/editor/"><button class="contact-btn contact-primary">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        </svg>
+                        Deploy AI Chatbot
+                    </button></a>
+                    <a href="https://github.com/SparkScratch-P/SPARKChat-AI"><button class="contact-btn contact-secondary">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        Github Repository
+                    </button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>SPARKChat AI</h3>
+                    <p>The ultimate custom AI chat agent for your website. One click away from transforming your user experience.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="#">Home</a>
+                        <a href="#features">Features</a>
+                        <a href="#demo">Demo</a>
+                        <a href="#docs">Integration</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <a href="#">Documentation</a>
+                        <a href="#">API Reference</a>
+                        <a href="#">GitHub</a>
+                        <a href="#">Community</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">License</a>
+                        <a href="#">Security</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SPARKChat AI. All rights reserved.</p>
+                <div class="footer-credits">
+                    <span>Built with</span>
+                    <svg class="heart" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                    </svg>
+                    <span>by SPARK Technosapiens</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
